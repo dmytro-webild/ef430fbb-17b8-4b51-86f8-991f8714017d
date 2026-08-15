@@ -1,5 +1,5 @@
 import FooterBasic from '@/components/sections/footer/FooterBasic';
-import NavbarDropdown from '@/components/ui/NavbarDropdown';
+import CustomNavbar from '@/components/CustomNavbar';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
@@ -41,13 +41,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="bounce" siteBackground="noise" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarDropdown
-      logo="COMPUSTAR"
-      ctaButton={{
-        text: "Login",
-        href: "#",
-      }}
-     navItems={navItems} />
+        <CustomNavbar navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
         <Outlet />
