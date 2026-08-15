@@ -27,7 +27,7 @@ export default function HomePage() {
       }}
       leftItems={[
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3HweT5uwSMtSyntCQeShb6NrmLY/uploaded-1786791480720-2qjcav09.png",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3HweT5uwSMtSyntCQeShb6NrmLY/uploaded-1786791480720-2qjcav09.png?_wi=1",
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/cyberpunk-circuit-board_23-2151977489.jpg",
@@ -62,7 +62,7 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/top-view-hard-drive-components_23-2149413382.jpg",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3HweT5uwSMtSyntCQeShb6NrmLY/uploaded-1786791480720-2qjcav09.png",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3HweT5uwSMtSyntCQeShb6NrmLY/uploaded-1786791480720-2qjcav09.png?_wi=2",
         },
       ]}
       textAnimation="slide-up"
